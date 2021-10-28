@@ -1,0 +1,77 @@
+29-09-21 11:12:07,INFO,Trying To Connect With The Database
+29-09-21 11:12:15,INFO,The Connection Is Created
+29-09-21 11:12:51,INFO,Trying To Connect With The Database
+29-09-21 11:13:00,INFO,The Connection Is Created
+29-09-21 11:13:22,INFO,Using The Keyspace That We Created At Time of Database Creating
+29-09-21 11:13:22,INFO,The credit Is Selected
+29-09-21 11:13:40,INFO,Table Is Creating Inside The Selected Keyspace
+29-09-21 11:13:41,INFO,The Table Is Created Inside The credit With Name credit_data
+29-09-21 11:13:48,INFO,Inserting The Data Into DATABASE
+29-09-21 11:16:41,INFO,All The Data Entered Into The credit Having Table Name credit_data
+29-09-21 11:16:49,INFO,Trying To Get The Data From The DataBase
+29-09-21 11:16:53,INFO,We Gathered The Data From DataBase      id  age  amount  credit_history  credit_risk  duration  \
+0   769   24    1275               2            0        15   
+0    23   26    1424               4            1        12   
+0   114   35    3976               2            1        21   
+0   660   33    1414               2            1         8   
+0   893   33    1131               2            0        18   
+..  ...  ...     ...             ...          ...       ...   
+0   800   35    1381               2            0        24   
+0   232   45    8588               2            1        39   
+0   103   54    7432               3            1        36   
+0   986   45    8978               2            0        14   
+0   945   34    6850               1            0        15   
+
+    employment_duration  foreign_worker  housing  installment_rate  ...  \
+0                     3               2        1                 4  ...   
+0                     4               2        2                 4  ...   
+0                     4               2        2                 2  ...   
+0                     3               1        2                 4  ...   
+0                     1               2        2                 4  ...   
+..                  ...             ...      ...               ...  ...   
+0                     3               2        2                 4  ...   
+0                     5               2        2                 4  ...   
+0                     3               2        1                 2  ...   
+0                     5               1        2                 1  ...   
+0                     1               2        2                 1  ...   
+
+    other_debtors  other_installment_plans  people_liable  \
+0               1                        3              2   
+0               1                        3              2   
+0               1                        3              2   
+0               3                        3              2   
+0               1                        3              2   
+..            ...                      ...            ...   
+0               1                        3              2   
+0               1                        3              2   
+0               1                        3              2   
+0               1                        3              2   
+0               1                        2              1   
+
+    personal_status_sex  present_residence  property  purpose  savings  \
+0                     2                  2         3        4        5   
+0                     3                  3         2        4        1   
+0                     3                  3         3        2        5   
+0                     3                  2         1        3        1   
+0                     2                  2         3        2        1   
+..                  ...                ...       ...      ...      ...   
+0                     2                  2         2        0        5   
+0                     3                  2         3        1        2   
+0                     2                  2         2        0        1   
+0                     1                  4         2        0        1   
+0                     3                  2         2        0        2   
+
+    status  telephone  
+0        1          1  
+0        2          1  
+0        2          2  
+0        2          1  
+0        1          1  
+..     ...        ...  
+0        1          1  
+0        4          2  
+0        2          1  
+0        1          2  
+0        2          2  
+
+[1000 rows x 22 columns]
